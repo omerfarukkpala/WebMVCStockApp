@@ -4,15 +4,15 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="2fad6e7f39574c4fa41b73157d2dd857" Name="Diagram1">
-        <EntityTypeShape EntityType="DbMvcStokModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbMvcStokModel.TBL_KATEGORILER" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbMvcStokModel.TBL_MUSTERILER" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbMvcStokModel.TBL_SATISLAR" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbMvcStokModel.TBL_URUNLER" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="DbMvcStokModel.FK_TBL_URUNLER_TBL_KATEGORILER" ManuallyRouted="false" />
-        <AssociationConnector Association="DbMvcStokModel.FK_TBL_SATISLAR_TBL_MUSTERILER" ManuallyRouted="false" />
-        <AssociationConnector Association="DbMvcStokModel.FK_TBL_SATISLAR_TBL_URUNLER" ManuallyRouted="false" />
+      <Diagram DiagramId="c53c905927ec48a5a642892806b1f75c" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model1.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Model1.TBL_KATEGORILER" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Model1.TBL_MUSTERILER" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="Model1.TBL_SATISLAR" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="Model1.TBL_URUNLER" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="Model1.FK_TBL_URUNLER_TBL_KATEGORILER" />
+        <AssociationConnector Association="Model1.FK_TBL_SATISLAR_TBL_MUSTERILER" />
+        <AssociationConnector Association="Model1.FK_TBL_SATISLAR_TBL_URUNLER" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

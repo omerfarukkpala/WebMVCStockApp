@@ -4,5 +4,23 @@
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<h2>Index</h2>
+<table class="table table-bordered">
+    <tr>
+        <th> KATEGORİ ID </th>
+        <th> KATEGORİ ADI </th>
+        <th> SİL </th>
+        <th> GÜNCELLE </th>
+    </tr>
+    <tbody>
+        @foreach (var ktgr in Model)
+        {
+            <tr>
+                <th> @ktgr.KATEGORIID</th>
+                <td> @ktgr.KATEGORIADI</td>
+                <td> <a href="/Kategori/Sil/@ktgr.KATEGORIID" class="btn btn-danger">Sil</a></td>
+                <td> <a href="/Kategori/KategoriGetir/@ktgr.KATEGORIID" class="btn btn-success">Güncelle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
 

@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>50 Derste Mvc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <style>
+        .navbar-brand.custom-margin {
+            margin-left: 4rem;
+            margin-top: 0.5rem;
+            margin-left: 380px; /* Sağa yönlü boşluk */
+        }
+
+        .custom-top-margin {
+            margin-top: 1rem;
+        }
+
+        .custom-bottom-margin {
+            margin-bottom: 2rem;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center custom-bottom-margin">
+        <a class="navbar-brand custom-margin custom-top-margin" href="#">50 Derste Mvc</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="/Kategori/Index/">Kategoriler</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Urun/Index/">Ürünler</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Musteri/Index/">Müşteriler</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Satis/Index/">Satışlar</a></li>
+                <li class="nav-item"><a class="nav-link" href="/Default/Index/">Yardım</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+
+</body>
+</html>

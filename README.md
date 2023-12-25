@@ -5,4 +5,5 @@
 # Categories ![image](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/02d9e44b-949f-4eda-a182-f7e8c8f85bc3)
 ## Category CRUD![CATEGORYCRUD](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/d838c40e-3db7-4dbf-96af-fea32a17f1fe)
 # Products ![image](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/d602a75d-c4b6-41ce-9fb8-04fe6e07998f)
+## Products![PRODSUCTS](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/42255055-6cd6-47a6-9c76-2fb78c1f8151)
 

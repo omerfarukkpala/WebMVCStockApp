@@ -11,7 +11,7 @@
             <input type="text" class="form-control" name="KATEGORIADI" />
         </div>*@
     <div>
-        <label>Kategori Adı</label>
+        <label>Category Name</label>
         @Html.TextBoxFor(m => m.KATEGORIADI, new { @class = "form-control" })
         @Html.ValidationMessageFor(m=>m.KATEGORIADI,"",new {@style="color:red"})
     </div>

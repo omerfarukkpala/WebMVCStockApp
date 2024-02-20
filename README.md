@@ -2,6 +2,21 @@
 ## Web ASP.NET ![1](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/38988b55-6054-484d-a217-6ad2b29c8eef)
 ## About ![2](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/39cb31a4-7e0e-4b8b-8a74-fdac1c779ef0)
 ## Contact ![3](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/6ad409a7-9d4d-4912-9dae-57ed50b35d57)
+###### Project Description
+##### This project is a small MVC (Model-View-Controller) application created to manage the operation of a store. The store management system ensures that products, stock information, prices, personnel and customer information are kept in the database. It also makes it possible to control the database via the web interface.
+###### Technologies and Tools
+* ASP.NET MVC Framework: MVC architecture that forms the basis of the web application.
+* Database (SQL Server, MsSQL, ): Used to store product, stock, personnel and customer information.
+* Entity Framework: An ORM (Object-Relational Mapping) tool that facilitates database operations.
+* HTML, CSS Bootstrap and JavaScript.
+- Experience and Skills Gained
+* View and Layout Concepts
+* Controller Structure and Layout Arrangements
+* Creating ActionResult and View
+* CRUD Operations
+* Pulling Data from DB with Dropdownlist
+* Validation Controls (Required)
+* Alert Transactions, Popup Modal Transactions and Search Panel
 # Categories ![image](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/02d9e44b-949f-4eda-a182-f7e8c8f85bc3)
 ## Category CRUD![CATEGORYCRUD](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/d838c40e-3db7-4dbf-96af-fea32a17f1fe)
 # Products ![image](https://github.com/omerfarukkpala/WebMVCStockApp/assets/101570820/d602a75d-c4b6-41ce-9fb8-04fe6e07998f)

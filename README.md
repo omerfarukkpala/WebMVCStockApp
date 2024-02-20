@@ -9,7 +9,7 @@
 * Database (SQL Server, MsSQL, ): Used to store product, stock, personnel and customer information.
 * Entity Framework: An ORM (Object-Relational Mapping) tool that facilitates database operations.
 * HTML, CSS Bootstrap and JavaScript.
-- Experience and Skills Gained
+##### Experience and Skills Gained
 * View and Layout Concepts
 * Controller Structure and Layout Arrangements
 * Creating ActionResult and View

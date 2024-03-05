@@ -11,7 +11,7 @@
 * HTML, CSS Bootstrap and JavaScript.
 ##### Experience and Skills Gained
 * View and Layout Concepts
-* Controller Structure and Layout Arrangements
+* Controller Structure and Layout Arrangements 
 * Creating ActionResult and View
 * CRUD Operations
 * Pulling Data from DB with Dropdownlist

@@ -8,7 +8,7 @@
 * ASP.NET MVC Framework: MVC architecture that forms the basis of the web application.
 * Database (SQL Server): Used to store product, stock, personnel and customer information.
 * Entity Framework: An ORM (Object-Relational Mapping) tool that facilitates database operations. 
-* HTML, CSS Bootstrap and JavaScript.
+* HTML, CSS Bootstrap and JavaScript. 
 ##### Experience and Skills Gained  
 * View and Layout Concepts 
 * Controller Structure and Layout Arrangements   

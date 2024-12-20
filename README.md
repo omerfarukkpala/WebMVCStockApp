@@ -12,7 +12,7 @@
 ##### Experience and Skills Gained  
 * View and Layout Concepts 
 * Controller Structure and Layout Arrangements    
-* Creating ActionResult and View   
+* Creating ActionResult and View    
 * CRUD Operations
 * Pulling Data from DB with Dropdownlist
 * Validation Controls (Required)
